@@ -8,7 +8,7 @@ html{
     background-attachment: fixed;
 }
 #global{
-	width: 80%;
+	width: 85%;
 	margin: 0px auto;
 	margin-top: 20px;
 	padding: 25px;
@@ -22,7 +22,7 @@ html{
 } */
 #logo{
 	font-family: Verdana,Arial;
-	font-size: 19px;
+	font-size: 24px;
 	letter-spacing: 4px;
 	background: #363636;
 	color: white;
@@ -33,14 +33,15 @@ html{
 	margin-bottom: 20px;
 	line-height: 75px;
 	text-transform: uppercase;
+	/* border: 1px solid white; */
 }
 
 #menu{
 	font-family: Helvetica,Arial;
     color: ivory;
 	background: rgb(34, 34, 34,0.7);
-	width: 60%;
-    height: 80px;
+	width: 59%;
+    height: 85px;
     float: right;
     margin-bottom: 20px;
 	text-transform: uppercase;
@@ -87,5 +88,13 @@ html{
 }
 #slider{
     background:#363636;
-    height: 400px;
 }
+#banner{
+	/* background: rgb(255, 0, 0); */
+	 background-attachment:fixed;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	width: 100%;
+} 
+
