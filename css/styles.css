@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+html{
+    background: url("../img/fondo.jpg");
+    background-attachment: fixed;
+}
+#global{
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 20px;
+	padding: 25px;
+	background: rgb(214, 65, 65,0.7);
+	box-shadow: 0px 0px 2px #ccc ;
+    
+	}
+/* .clearfix{.
+	float: none;
+	clear: both;
+} */
+#logo{
+	font-family: Verdana,Arial;
+	font-size: 19px;
+	letter-spacing: 4px;
+	background: #363636;
+	color: white;
+	text-align: center;
+	width: 40%;
+	height: 80px;
+	float: left;
+	margin-bottom: 20px;
+	line-height: 75px;
+	text-transform: uppercase;
+}
+
+#menu{
+	font-family: Helvetica,Arial;
+    color: ivory;
+	background: rgb(34, 34, 34,0.7);
+	width: 60%;
+    height: 80px;
+    float: right;
+    margin-bottom: 20px;
+	text-transform: uppercase;
+    font-size: 20px;
+}
+#menu ul{
+	line-height: 20px;
+    margin-right: 35px;
+	list-style: none;
+    /* float: right; */
+}
+#menu li{
+	height: 46px;
+	display: inline-block;
+    margin-left: 30px;;
+	transition: all 300ms;
+}
+#redes{
+    float: right;
+    /* border: 1px solid white; */
+}
+#link,
+#git,
+#web{
+    float: right;
+    width: 25px;
+	height: 25px;
+	/* border: 1px solid white; */
+	display: block;
+	margin: 0px auto;
+	/* margin-top: 2px; */
+	margin-bottom: 50px;
+    margin-right: 2px;
+	cursor: pointer;
+}
+#link{
+	background: #2538a3;
+}
+#git{
+	background: #000000;
+}
+#web{
+	background: #a11b1b;
+}
+#slider{
+    background:#363636;
+    height: 400px;
+}
