@@ -129,6 +129,9 @@ html{
 #TextCudrado1 h2{
 	background: tomato;
 }
+#TextCudrado1 p{
+	background: rgb(161, 38, 16);
+}
 #Cuadrado2{
 	margin-top: 20px;
 	background: rgb(83, 83, 83);
