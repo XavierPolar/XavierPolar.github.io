@@ -8,7 +8,11 @@ function loadDoc() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById("texto_cambio").innerHTML =
       this.responseText;
+      $("#id_ajax").hide(1000);
+      $("#texto_cambio").show(1000);
+      // $("#id_ajax").hide();
     }
+
   };
   peticion.open("GET", url, true);
   peticion.send();
