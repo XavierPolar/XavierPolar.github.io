@@ -19,6 +19,23 @@ function loadDoc() {
 }
 document.getElementById("id_ajax").addEventListener("click", function(){loadDoc();});
 
+
+function mostrar_sugerencias(str){
+  var peticion;
+  url = 'http://polarxavier.me/text/lista.php?q=';
+  if (str.length == 0){
+    document.getElementsById("sugerencia").innerHTML = "";
+    return;
+  }
+  peticion = new XMLHttpRequest();
+  peticion.onreadystatechange = function(){
+    if (this.readyState == 4 && this.status == 200) 
+      document.getElementsById("sugerencia").innerHTML = this.responseText;
+  };
+  peticion.open("GET", url+str, true);
+  peticion.send();
+}
+
 // Calcular el tamaño de la pantalla
 var w = window.innerWidth
 || document.documentElement.clientWidth
