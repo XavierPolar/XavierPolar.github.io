@@ -5,6 +5,7 @@
 }
 html{
     background: url("../img/fondo.jpg");
+	/* background: #ffffff; */
     background-attachment: fixed;
 }
 #global{
@@ -24,12 +25,13 @@ html{
 	background: rgba(51,51,51,0.5);
 	margin-bottom: 100px;
 	width: 0%;
-	height: 20%;
+	height: 14%;
 	padding: 10px;
 	border-radius: 2px;
 	margin-bottom: 10px;
 	margin-top: 5px;
 }
+
 #link,
 #git,
 #web{
@@ -53,14 +55,15 @@ html{
 }
 #logo{
 	font-family: Verdana,Arial;
+	font-weight: 700;
 	font-size: 24px;
 	letter-spacing: 4px;
-	background: rgba(0, 0, 0, .85);
-	color: rgba(97, 97, 97, 0.85);
+	/* background: rgba(0, 0, 0, .85); */
+	color: rgba(243, 243, 243, 0.95);
 	text-align: center;
 	width: 40.9%;
 	height: 65px;
-	float: left;
+	float: right;
 	margin-bottom: 20px;
 	line-height: 75px;
 	text-transform: uppercase;
@@ -68,35 +71,46 @@ html{
 }
 #menu{
 	font-family: Helvetica,Arial;
-    color: ivory;
-	background: rgba(0, 0, 0, .85);
-	width: 58.7%;
+    color: rgb(253, 253, 253);
+	/* background: rgba(0, 0, 0, .85); */
+	/* width: 58.7%; */
 	height: 65px;
-    float: right;
+    float: left;
     margin-bottom: 20px;
 	text-transform: uppercase;
     font-size: 20px;
 	border-right: 3px solid rgb(5, 5, 5) ;
+	
 }
 #menu ul{
 	line-height: 76px;
 	list-style: none;
+	
 }
 #menu li{
 	height: 46px;
 	display: inline-block;
 	transition: all 300ms;
 	
+	
 }
 #menu a{
 	display: block;
-	color: rgba(97, 97, 97, 0.85);
+	color: rgba(243, 243, 243, 0.85);
 	text-decoration: none;
 	padding-left: 30px;
 	padding-right: 30px;
+	
+}
+#menu li :hover{
+	font-weight: 800;
+	background: rgba(243, 243, 243, 0.95);
+	color: #000000;
+	border-radius: 20px;
 }
 
 #slider{
+	padding-bottom: 10px;
     /* background:#363636; */
 }
 #banner{
@@ -113,7 +127,7 @@ html{
 	text-align: center;
 	display: inline-block;
 	display: flex!important;
-	background: slategray;
+	background: rgb(255, 255, 255);
 }
 #Cuadrado1{
 	margin-top: 20px;
@@ -124,7 +138,7 @@ html{
 	height: 50%;
 }
 #TextCudrado1{
-	background: white;
+	background: rgb(180, 180, 180);
 }
 #TextCudrado1 h2{
 	background: tomato;
@@ -166,5 +180,68 @@ html{
 	margin-right: 40px;
 }
 
+#tecnologias{
+	background: #424553;
+	padding-left: 150px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+}
+#tecnologias h2{
+	text-align: center;
+	font-weight: 700;
+	font-size: 54px;
+	color: rgba(243, 243, 243, 0.95);
+}
+#tecnos ul{
+	/* justify-content: center; */
+	padding-bottom: 10px;
+	/* padding-left: 50px; */
+	
+}
+#tecnos li{
+	display: inline-block;
+	background-color: var;
+	height: 55px;
+	width: 100px;
+	margin: 0 .75rem;
+	/* flex: 0 0 auto; */
+	padding-left: 80px ;
+	padding-right: 80px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	/* padding: .7rem 5rem; */
+	
+	
+}
+#tecnos img{
+	width: 45%;
+	float: left;
+	text-align: center;
+    padding-left: 24px;
+	padding-right: 10px;
+
+}
+#tecnos h3{
+	color: white;
+	vertical-align: middle;
+	/* text-align: center; */
+	background: #1d1e22;
+	width: 210px;
+	height: 48px;
+	font-size: 34px;
+	padding-left: 10px;
+	border-radius: 20px;
+	border: solid 1px rgb(5, 5, 5) ;
+}
+/* #tecnos h3{
+	color: white;
+	font-size: 24px;
+    font-weight: 700;
+	padding-bottom: 15px;
+	padding-top: 25px;
+	background: turquoise;
+} */
+
 
 /* https://getbootstrap.com/docs/4.6/examples/product/ */
+/* https://codigoconjuan.com/blog/ */
